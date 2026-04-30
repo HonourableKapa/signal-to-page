@@ -1,11 +1,13 @@
 """Ingests signals from URLs or raw text and returns clean plain text."""
 from typing import Optional
+from urllib.parse import urlparse
 
 import httpx
 from bs4 import BeautifulSoup
 from rich.console import Console
 
 console = Console()
+_ALLOWED_SCHEMES = {"http", "https"}
 
 
 def parse_signal(url: Optional[str] = None, text: Optional[str] = None) -> str:
@@ -30,6 +32,12 @@ def parse_signal(url: Optional[str] = None, text: Optional[str] = None) -> str:
 
 def _scrape_url(url: str) -> str:
     """Scrape a URL and return its visible text content."""
+    parsed = urlparse(url)
+    if parsed.scheme not in _ALLOWED_SCHEMES:
+        raise ValueError(f"Unsupported URL scheme '{parsed.scheme}'. Only http/https are allowed.")
+    if not parsed.hostname:
+        raise ValueError("URL must include a valid hostname.")
+
     try:
         response = httpx.get(
             url,
