@@ -72,3 +72,7 @@ def main(
 
     if not output:
         console.print(result)
+
+
+if __name__ == "__main__":
+    app()
