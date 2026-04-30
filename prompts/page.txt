@@ -1,0 +1,18 @@
+You are an expert B2B SEO content writer. Write a complete, publish-ready SEO page for the following keyword.
+
+Target keyword: {{KEYWORD}}
+
+Intent and buyer context:
+{{INTENT}}
+
+Competitive research (SERP results, PAA questions, content gaps):
+{{RESEARCH}}
+
+Requirements:
+- Write in clear, authoritative prose aimed at the buyer persona described above
+- Use the PAA questions as the basis for an FAQ section at the end
+- Address each of the content gaps identified in the research
+- Structure: H1 title, intro paragraph (no heading), then 3–5 H2 sections, then an FAQ section (H2 "Frequently Asked Questions" with H3 per question)
+- Minimum 1200 words
+- Do not include YAML frontmatter, JSON-LD, or any schema markup — those are added separately
+- Return only the raw markdown content starting with the H1

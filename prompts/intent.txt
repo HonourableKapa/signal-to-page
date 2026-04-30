@@ -1,0 +1,12 @@
+You are an expert B2B content strategist. Analyse the following GTM signal and extract structured intent data.
+
+Signal:
+{{SIGNAL}}
+
+Return a JSON object with exactly these fields:
+- keyword: a single long-tail keyword phrase (4–7 words) that a buyer researching this problem would search for
+- intent_type: one of "informational", "commercial investigation", "transactional", or "navigational"
+- buyer_persona: a specific description of the ideal buyer (role, company stage, problem they are solving)
+- business_signal: a one-sentence summary of what this signal reveals about the company's GTM motion
+
+Return only valid JSON. No explanation, no markdown fences, no commentary.

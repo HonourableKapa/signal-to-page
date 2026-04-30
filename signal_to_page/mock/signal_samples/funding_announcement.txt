@@ -1,0 +1,14 @@
+FOR IMMEDIATE RELEASE
+
+Acme RevOps Raises $40M Series B to Scale AI-Powered Revenue Operations Platform
+
+SAN FRANCISCO, CA — Acme RevOps, the leading revenue operations platform for mid-market B2B companies, today announced it has raised $40 million in Series B funding led by Sequoia Capital, with participation from existing investors Bessemer Venture Partners and Salesforce Ventures.
+
+The company will use the proceeds to accelerate product development, expand its go-to-market team, and launch into European markets. Acme RevOps currently serves over 800 customers including Datadog, Lattice, and Gong.
+
+"Revenue teams are drowning in disconnected tools and spreadsheets," said Jane Smith, CEO of Acme RevOps. "Our platform brings together forecasting, pipeline management, and sales analytics into a single source of truth."
+
+The company plans to grow from 120 to 250 employees by end of year, with a focus on engineering, sales, and customer success hires.
+
+About Acme RevOps
+Acme RevOps was founded in 2020 and is headquartered in San Francisco. The company helps revenue teams at mid-market B2B companies streamline operations, improve forecast accuracy, and drive predictable growth.

@@ -1,0 +1,43 @@
+{
+  "serp_results": [
+    {
+      "url": "https://www.salesforce.com/resources/articles/revenue-operations/",
+      "title": "What Is Revenue Operations? The Complete Guide — Salesforce",
+      "description": "Revenue operations (RevOps) aligns sales, marketing, and customer success around shared data, processes, and goals. Learn how to build a RevOps function."
+    },
+    {
+      "url": "https://www.clari.com/blog/revenue-operations/",
+      "title": "Revenue Operations: The Ultimate Guide to RevOps — Clari",
+      "description": "Everything you need to know about building a world-class revenue operations function, including team structure, tech stack, and KPIs."
+    },
+    {
+      "url": "https://www.gartner.com/en/sales/insights/revenue-operations",
+      "title": "Revenue Operations Strategy and Best Practices — Gartner",
+      "description": "Gartner research on revenue operations: how leading companies are structuring RevOps teams to drive predictable growth."
+    },
+    {
+      "url": "https://www.hubspot.com/revenue-operations",
+      "title": "Revenue Operations Software — HubSpot",
+      "description": "HubSpot's RevOps tools help you align your teams, automate processes, and get a single view of your revenue pipeline."
+    },
+    {
+      "url": "https://revopsco-op.com/what-is-revops/",
+      "title": "What Is RevOps? A Plain-English Explainer — RevOps Co-op",
+      "description": "RevOps is more than a job title. Here's what it actually means to build a revenue operations function and why it matters for B2B growth."
+    }
+  ],
+  "paa_questions": [
+    "What does a revenue operations team do?",
+    "What is the difference between RevOps and sales ops?",
+    "How do you structure a RevOps team?",
+    "What tools do revenue operations teams use?",
+    "Is RevOps the same as business operations?"
+  ],
+  "avg_word_count": 1850,
+  "content_gaps": [
+    "No content covering RevOps for mid-market specifically",
+    "Lack of ROI and business case content for RevOps investment",
+    "Missing comparison of build vs buy for RevOps tooling",
+    "No coverage of RevOps team structure at Series B stage"
+  ]
+}
